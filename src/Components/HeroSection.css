@@ -1,0 +1,125 @@
+.hero-container {
+    background: url('../../public/Images/Background2.jpg') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    font-size: 4rem;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .profile-image {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 280px;
+    height: 280px;
+  }
+  .Github-profile{
+    position: absolute;
+    top: 49%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 35px;
+    height: 35px;
+  }
+  .LinkedIn-profile{
+    position: absolute;
+    top: 49%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 37px;
+    height: 37px;
+  }
+  .Insta-profile{
+    position: absolute;
+    top: 49%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 39px;
+    height: 39px;
+  }
+  
+  .WordCarousel {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    top: 33%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-bottom: 1rem;
+  }
+  
+  .WordCarousel.visible {
+    opacity: 1;
+  }
+  
+  .WordCarousel.hidden {
+    opacity: 0;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .hero-container {
+      height: 100vh;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+      margin-left: 1.9rem;
+    }
+  
+    .WordCarousel {
+      font-size: 2rem;
+      top:37%;
+      left: 25%;
+    }
+  
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      top:26%;
+      left: 76%;
+    }
+    .Github-profile{
+      width: 25px;
+      height: 25px;
+      top: 46%;
+      left: 14%;
+    }
+    .LinkedIn-profile{
+      width: 28px;
+      height: 28px;
+      top: 46%;
+      left: 28%;
+    }
+    .Insta-profile{
+      width: 28px;
+      height: 28px;
+      top: 46%;
+      left: 42%;
+    }
+  }
+  
+  
+  
+  
+  
