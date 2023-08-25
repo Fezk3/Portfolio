@@ -9,7 +9,7 @@ function App() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Diego Espinoza Portfolio</title>
+        <title>Victor Segura's Portfolio</title>
         <meta name="description" content="Diego Espinoza Portfolio" />
         <meta name="keywords" content="Diego Espinoza Portfolio" />
       </Helmet>
