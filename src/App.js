@@ -10,8 +10,8 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Victor Segura's Portfolio</title>
-        <meta name="description" content="Diego Espinoza Portfolio" />
-        <meta name="keywords" content="Diego Espinoza Portfolio" />
+        <meta name="description" content="Victor Segura's Portfolio" />
+        <meta name="keywords" content="Victor Segura's Portfolio" />
       </Helmet>
       <Router>
         <Routes>
